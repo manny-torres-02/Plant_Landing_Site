@@ -1,0 +1,83 @@
+body, html{
+    height: 100%;
+    margin:0%;
+}
+
+body{
+    width:100%;
+    margin: auto;
+}
+
+/* header  */
+
+/* hero section */
+
+.hero-img{
+    display: inline-block;
+    filter:brightness(75%);
+    height: 25%;
+    width:100%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    /* Adjust this value to move the positioned div up and down */
+    top: 75%; 
+    text-align: center;
+
+    /* Set the width of the positioned div */
+    width: 100%; 
+    background-color: rgba(0,0,0, 0.5) ;
+    color: white;
+}
+
+/* PRoducts  */
+.products-section h1{
+    text-align: center;
+}
+
+.product-img-cont {
+    width: 75%; 
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-img{
+    width:350px;
+    padding: 5%;
+}
+
+/* serving world class plants  */
+#serving{
+    text-align: center;
+}
+iframe {
+
+}
+
+/* Features  */
+
+
+#features {
+    text-align: center;
+}
+
+.features-section {
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feat-img {
+    width: 400px;
+}

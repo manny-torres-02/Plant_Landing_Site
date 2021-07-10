@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<body>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -18,69 +19,107 @@
         <![endif]-->
         <!-- heading -->
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Products
-                    </li>
-                    <li>
-                        Introduction video
-                    </li>
-                    <li>
-                        Contact
-                    </li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">PLANT LOUNGE</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="na=v-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <!-- hero section  -->
+
       <section>
-          <div>
-              <img src="images\severin-candrian-RHe-ebrSUTE-unsplash.jpg" alt="severin candrian Hero Image">
+           <!-- hero section  -->
+          <div class="hero">
+            <img class="hero-img"src="images\Monstera.jpg" alt="Monstera hero image"/>
+            <h2 class="hero-text"> THE PLANT LOUNGE </h2>
+         
           </div>
       </section>
       <!-- product Section -->
-      <section>
-          <h1>Products</h1>
-          <div>
-              <img src="images\alvan-nee-1-zNyE_6qPQ-unsplash.jpg" alt="cactus">
+      <section class="products-section" >
+          <h1 id="products">Products</h1>
+          <div class="product-img-cont">
+            <div>
+              <img class="product-img" src="images\alvan-nee-1-zNyE_6qPQ-unsplash.jpg" alt="cactus">
           </div>
           <div>
-            <img src="images\galina-n-miziNqvJx5M-unsplash.jpg" alt="Succulent_1">
+            <img class="product-img" src="images\galina-n-miziNqvJx5M-unsplash.jpg" alt="Succulent_1">
         </div>
         <div>
-            <img src="images\janine-meuche-xoXOP5UzaMg-unsplash.jpg" alt="Succulent_2">
+            <img class="product-img" src="images\janine-meuche-xoXOP5UzaMg-unsplash.jpg" alt="Succulent_2">
         </div>
         <div>
-            <img src="images\sarah-dorweiler-ALtNa-uKy3M-unsplash.jpg" alt="Little_Tree">
+            <img class="product-img" src="images\sarah-dorweiler-ALtNa-uKy3M-unsplash.jpg" alt="Little_Tree">
         </div>
       </section>
       <!-- Video -->
-      <section>
+      <section id = "serving">
           <h2>
               Serving World Class Plants 
+            </h2>
               <br> 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/f8nsXcxySig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </h2>
-      </section>
-        <script src="" async defer></script>
+              <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/f8nsXcxySig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+      </section>
         <!-- features -->
-        <h2>Features</h2>
+        <section>
+        <h2 id="features">Features</h2>
+        <div class="features-section">
         <div>
-        <h4>quality</h4>
-        <img src="images\Branch_Leaf_SVG.png" alt="leaf branch SVG ">
+        <h4>Quality</h4>
+        <img class="feat-img" src="images\Branch_Leaf_SVG.png" alt="leaf branch SVG ">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      </div>
+    <div>
+        <h4>Organic</h4>
+        <img class="feat-img" src="images\Haworthia SVG.png" alt="Haworthia SVG ">
     </div>
     <div>
-        <h4>quality</h4>
-        <img src="images\Haworthia SVG.png" alt="Haworthia SVG ">
+        <h4>Cruelty Free</h4>
+        <img class="feat-img" src="images\Monstera SVG.jpg" alt="Monstera SVG">
     </div>
-    <div>
-        <h4>quality</h4>
-        <img src="images\Monstera SVG.jpg" alt="Monstera SVG">
+  </div>
+  </section>
+    <div class= "newsletter">
+        <h2>Newsletter</h2>
+        <p> Subcsribe to receive creative tips and ideas for your plant pals </p>
+        <input type="email" placeholder="email@email.com">
+        <button> SUBSCIRBE</button>
     </div>
+    <br>
+        <h4>Connect</h4>
+        <div class="social-media">
+            <img class="social-icon" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+            <img class="social-icon" src="https://img.icons8.com/material-sharp/24/000000/twitter.png"/>
+            <img class="social-icon" src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"/>
+        </div>
+        <br class="address">
+           <br>1830  Hillside Drive</br>
+            Charlestown, MA 02129 </br>
+            Phone: 339-532-4806</br>
+            Email: f5sx7f2aiqw@temporary-mail.net
+        </p>
+        </div>
+    </footer>
     <!-- Subscribe -->
-    </body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    </body>
+</body>
+    </html>

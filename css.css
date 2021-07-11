@@ -78,6 +78,28 @@ iframe {
     justify-content: center;
 }
 
+.feature-card {
+    width:500px;
+}
+
 .feat-img {
-    width: 400px;
+    width: 350px;
+}
+
+/* footer */
+.newsletter {
+    width: 80%;
+    text-align: center;
+    margin:auto;
+
+}
+
+.social-icon {
+    height
+}
+
+.contact {
+    width: 80%;
+    text-align: center;
+    margin:auto;  
 }
